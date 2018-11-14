@@ -6,10 +6,9 @@ namespace homework1
     {
         static void Main(string[] args)
         {
-            var result = new TextSorting();
-            
+            var result = new TextSorting();            
 
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(result);
         }
     }
 }
