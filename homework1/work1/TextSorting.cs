@@ -7,9 +7,9 @@ namespace work1
     {
         public string SortByAlphabetical(string text)
         {
-            var spilt = text.Split(',');
-            Array.Sort(spilt);
-            String textSort = string.Join(",",spilt);
+            var split = text.Split(',');
+            Array.Sort(split);
+            String textSort = string.Join(",",split);
 
             return textSort;
         }
