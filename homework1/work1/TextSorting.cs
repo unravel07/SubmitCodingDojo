@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace work1
 {
@@ -6,7 +7,11 @@ namespace work1
     {
         public string SortByAlphabetical(string text)
         {
-            throw new NotImplementedException();
+            var spilt = text.Split(',');
+            Array.Sort(spilt);
+            String textSort = string.Join(",",spilt);
+
+            return textSort;
         }
     }
 }
