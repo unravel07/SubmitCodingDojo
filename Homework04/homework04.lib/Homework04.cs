@@ -13,9 +13,7 @@ namespace homework04.lib
             // var divBy5 = split.Where(it => Convert.ToInt32(it, 2) % 5 == 0).ToArray();
             // var result = string.Join(",", divBy5);
             return result;
-
-
-            throw new NotImplementedException();
+ 
         }
     }
 }
