@@ -16,7 +16,13 @@ namespace homework2.lib
             var gd = string.Join(",\n\t", array);
             //newText.Append("[\n\t").Append(gd).Append("\n]");
             newText.Append($"[\n\t{gd}\n]");
-            // for (int i = 0; i < split.Length; i++)
+
+            return newText.ToString();
+        }
+
+    }
+}
+/*            // for (int i = 0; i < split.Length; i++)
             // {
             //     if (i == split.Length - 1)
             //     {
@@ -29,9 +35,4 @@ namespace homework2.lib
             //         newText.Append("\t").Append(array[i]).Append(",").Append("\n");
 
             //     }
-            // }
-            return newText.ToString();
-        }
-
-    }
-}
+            // } */
