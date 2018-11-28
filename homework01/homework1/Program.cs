@@ -1,4 +1,5 @@
 ﻿using System;
+using work1;
 
 namespace homework1
 {
